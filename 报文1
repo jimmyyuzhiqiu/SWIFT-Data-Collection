@@ -1,0 +1,117 @@
+ Message          : 340020861958
+ Reference/Ver    : 425362_1-00
+ Message Type     : pacs.008.001.08 (MX1031)
+                     Customer payment
+ Priority         : Normal  01
+ Input Seq No     : 000000524
+ Service code     : swift.finplus
+ Status Of Msg    : Acked By S.W.I.F.T. FIN  at 12:20 06/11/2025
+                    Sent To at 12:19 06/11/2025  Header : 12:20 06/11/2025 INGBCNSHXXX  0172
+          00:00            CHASUS33XXX
+ GPI Unique end-to-end transaction ref : c14688c6-3e70-49f3-b724-27ffba3d8701
+ DESTINATION : JP MORGAN CHASE BANK NA
+               383 MADISON AVENUE
+               USA NY 10179 NEW YORK
+ 20  :    Sender's Reference
+          TFS0000060FMS9WH
+ 23B :    Identification Of The Option
+          CRED
+ 32A :    Date and Amount
+          06/11/2025
+          USD 934.070,08  (011)
+ 33B :    Currency/instructed Amount
+          USD 936.456,42  (011)
+ 50A :    Ordering Customer
+          36004374
+          INGB-CN-SH
+          * ING BANK NV SHANGHAI BRANCH
+          * SHANGHAI WORLD FINANCIAL CENTER F19
+          * 100 CENTURY AVE PUDONG NA
+          * CHINA 200120 SHANGHAI
+ 52A :    Ordering Institution
+          INGB-CN-SH
+          * ING BANK NV SHANGHAI BRANCH
+          * SHANGHAI WORLD FINANCIAL CENTER F19
+          * 100 CENTURY AVE PUDONG NA
+          * CHINA 200120 SHANGHAI
+ 53B :    Sender's Correspondent
+          001-1-166204
+ 56A :    Intermediary Institution
+          SCBL-US-33
+          * STANDARD CHARTERED BANK
+          * 1095 AVE. OF THE AMERICAS
+          * USA NY 10036 NEW YORK
+ 57A :    Account With Institution
+          SCBL-GB-2L
+          * STANDARD CHARTERED BANK
+          * ALL UK OFFICES
+          * 1 BASINGHALL AVENUE
+          * GB LONDON EC2V 5DD
+ 59  :    Beneficiary
+          GB23SCBL60910412740974
+          TRAFIGURA SECURITISATION FINANCE PL
+          C
+          IBAN: GB23SCBL60910412740974
+ 70  :    Remittance Information
+          /ROC/08101LC25803694C///URI//RFB/72
+          2200.5.3 722200.5.3
+ 71A :    Details Of Charges
+          SHA
+ 72  :    Sender To Receiver Information
+          /BNF/SHSTCFELC0000060
+ -----------------------------------------------------------------------
+
+-- MESSAGE HISTORY
+ -----------------------------------------------------------------------
+          Start Date : 06/11/2025  Time : 11:36:21
+          Type of history : INFO
+          Msg : MX1031
+          Error/Info : 99999100 Swift Translator Call Success.
+          Additional info. : IRM209003;0001
+          CBPR_FinPlus;MX_to_MT;Pacs008_to_MT103_EMS.
+ -----------------------------------------------------------------------
+          Start Date : 06/11/2025  Time : 11:36:21
+          Type of history : INFO
+          Msg : MX1031
+          Error/Info : 20901000 BO - IRM --> Correct
+          Additional info. : IASA : BO - IRM -> CORRECT
+ -----------------------------------------------------------------------
+          Start Date : 06/11/2025  Time : 11:36:28
+          Type of history : WARN
+          Msg : MX1031   Block : @HDRMX
+          Error/Info : 04808133 Validation of the MX message
+          successfully.
+          Additional info. :  REVISION Upd:  to 2.0.10
+ -----------------------------------------------------------------------
+          Start Date : 06/11/2025  Time : 11:36:28
+          Type of history : WARN
+          Msg : MX1031   Block : @HDRMX
+          Error/Info : 04808133 Validation of the MX message
+          successfully.
+          Additional info. : SERVICE Upd: swift.finplus!pc to
+          swift.finplus
+ -----------------------------------------------------------------------
+          Start Date : 06/11/2025  Time : 11:36:28
+          Type of history : WARN
+          Msg : MX1031   Block : @HDRMX
+          Error/Info : 04808133 Validation of the MX message
+          successfully.
+          Additional info. :  FORMAT Upd: MX to AnyXML
+ -----------------------------------------------------------------------
+          Start Date : 06/11/2025  Time : 11:36:28
+          Type of history : WARN
+          Msg : MX1031   Block : @HDRMX
+          Error/Info : 04808133 Validation of the MX message
+          successfully.
+          Additional info. :  SubFormat Upd:  to Input
+ ---------------------------------------------------------------------------
+
+-- MESSAGE AUDIT AND/OR NOTES
+ ---------------------------------------------------------------------------
+          Start Date : 06/11/2025  Time : 12:19:07
+          Operator Identification : CNUJ65XY - Vincent Zhu
+          Operator Branch : 399
+          Operator Departement : DOC
+          Text Intervention : Message Approval
+
+
